@@ -58,3 +58,5 @@ require 'active_support/all'
     age: 16
   },
 ]
+
+# puts @candidates[0][:id]

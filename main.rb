@@ -7,6 +7,16 @@ require './filters'
 
 ## Your test code can go here
 
-# binding.pry
 
-pp qualified_candidates
+
+# puts @candidates
+# pp qualified_candidates
+
+# puts experienced?(@candidates)
+# binding.pry
+# puts github_points?(@candidates)
+
+# puts two_languages?(@candidates)
+puts qualified_candidates(@candidates)
+
+# puts ordered_by_qualifications(@candidates)
